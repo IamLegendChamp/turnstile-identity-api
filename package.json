@@ -1,0 +1,25 @@
+{
+  "name": "turnstile-identity-api",
+  "version": "1.0.0",
+  "description": "Identity and access API — Node.js, Express, MongoDB (JWT auth & RBAC)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "jose": "^6.2.3",
+    "mongoose": "^9.7.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3"
+  }
+}
