@@ -2,6 +2,10 @@
   "name": "turnstile-identity-api",
   "version": "1.0.0",
   "description": "Identity and access API — Node.js, Express, MongoDB (JWT auth & RBAC)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IamLegendChamp/turnstile-identity-api.git"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts"

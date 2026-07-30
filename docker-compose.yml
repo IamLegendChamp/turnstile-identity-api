@@ -1,3 +1,5 @@
+name: turnstile-identity-api
+
 services:
   mongo:
     image: mongo:7
